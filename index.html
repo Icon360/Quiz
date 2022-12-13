@@ -9,13 +9,29 @@
 
 <body>
 <div class="Container">
-<h2 class="text-center"> Welcome to my todo list app in javascript</h2>
- 
-       <div class="form-group">
-       <label for="inputitem">Add</label>
-       <input type="text" class="form-control" name="" id="inputitem">
+<h2 class="text-center"> Basic Quizz app</h2>
+       <br>
+       <div class="form-check" id="q1">
+       <label for="inputitem">Question 1. What is the capital of Ghana</label>
+       <div>
+          <input type="radio" id="qa1" name="Capital" value="Kumasi">Kumasi
+          <input type="radio" id="qa2" name="Capital" value="Ho">Ho
+          <input type="radio" id="qa3" name="Capital" value="Accra">Accra
+          <input type="radio" id="qa4" name="Capital" value="Tamale">Tamale
        </div>
-     <button id="addbtn" class="btn btn-primary">Add list</button>
+       <br>
+       <br>
+       <div class="container">
+       <label for="inputitem">Question 2. Who created GIT?</label>  
+       <div>
+          <input type="radio" id="qg1" name="git" value="Nicholas">Nicholas
+          <input type="radio" id="qg2" name="git" value="Tovalds">Tovalds Linus
+          <input type="radio" id="qg3" name="git" value="Dennis">Dennis Ritchie
+          <input type="radio" id="qg4" name="git" value="Maxwell">Maxwell Goodman
+       </div>
+       </div>
+       <br>
+     <button id="addbtn" class="btn btn-primary">Check Answer</button>
      <button id="clearbtn" class="btn btn-info">Clear</button>
      <br>
 
