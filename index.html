@@ -14,10 +14,10 @@
        <div class="form-check" id="q1">
        <label for="inputitem">Question 1. What is the capital of Ghana</label>
        <div>
-          <input type="radio" id="qa1" name="Capital" value="Kumasi">Kumasi
-          <input type="radio" id="qa2" name="Capital" value="Ho">Ho
-          <input type="radio" id="qa3" name="Capital" value="Accra">Accra
-          <input type="radio" id="qa4" name="Capital" value="Tamale">Tamale
+          <input type="radio" id="qa1" name="capital" value="Kumasi">Kumasi
+          <input type="radio" id="qa2" name="capital" value="Ho">Ho
+          <input type="radio" id="qa3" name="capital" value="Accra">Accra
+          <input type="radio" id="qa4" name="capital" value="Tamale">Tamale
        </div>
        <br>
        <br>
@@ -31,15 +31,16 @@
        </div>
        </div>
        <br>
-     <button id="addbtn" class="btn btn-primary">Check Answer</button>
-     <button id="clearbtn" class="btn btn-info">Clear</button>
+     <button onclick="check()" id="addbtn" class="btn btn-primary">Check Answer</button>
+     <button id="clearbtn" class="btn btn-danger">Clear</button>
      <br>
 
      <p>All todo lists</p>
      <ol id="mylist"></ol>
 </div>
 
-<script type="" src="js/script.js"></script>
+<ul id="answers"></ul>
+<script type="" src="script.js"></script>
 
 </body>
 </html> 
